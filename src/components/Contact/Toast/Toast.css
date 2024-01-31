@@ -1,0 +1,26 @@
+.toast {
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    padding-inline: 2rem;
+    padding-block: 1.5rem;
+    border-radius: var(--border-radius);
+    transition: all 0.3s ease-in-out;
+    animation: slideIn 0.3s ease-in-out;
+}
+.success {
+    color: #333;
+    background-color: var(--success);
+}
+.error {
+    color: #f3f3f3;
+    background-color: var(--error);
+}
+@keyframes slideIn {
+    0% {
+        transform: translateY(150%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,22 @@
+.about-section {
+    background: #ff8709;
+    color: var(--background);
+    padding: 3rem clamp(1rem, 3vw, 3rem);
+    border-radius: var(--border-radius);
+    display: grid;
+    gap: 3rem;
+}
+.about-title {
+    font-size: var(--section-title-font-size);
+}
+.about-me {
+    display: grid;
+    gap: 1rem;
+}
+.about-me__title {
+    font-size: clamp(2rem, 7vw, 4rem);
+}
+.about-me__description {
+    font-size: clamp(1.2rem, 4vw, 1.4rem);
+    max-width: 70rem;
+}

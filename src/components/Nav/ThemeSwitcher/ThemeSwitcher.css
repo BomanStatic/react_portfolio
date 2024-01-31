@@ -1,0 +1,9 @@
+.theme__btn {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.theme__btn > * {
+    color: var(--primary);
+}

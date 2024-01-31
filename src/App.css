@@ -1,0 +1,7 @@
+main {
+    width: var(--wrapper-width);
+    margin-inline: auto;
+}
+main > * {
+    margin-top: 3rem;
+}

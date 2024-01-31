@@ -1,0 +1,7 @@
+.projects-section {
+    --min: 60ch;
+
+    display: grid;
+    grid-gap: var(--gap);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
+}

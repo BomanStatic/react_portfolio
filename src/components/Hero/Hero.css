@@ -1,0 +1,61 @@
+.hero-section {
+    display: grid;
+    gap: var(--gap);
+}
+.hero-content {
+    background-color: var(--text);
+    color: var(--background);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: var(--border-radius);
+}
+.label-pill {
+    background-color: var(--accent);
+    color: var(--background);
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+    padding-inline: 1rem;
+    padding-block: 0.3rem;
+    border-radius: 50vh;
+    text-align: center;
+}
+.hero-information {
+    padding: 2rem clamp(1rem, 5vw, 3rem);
+    text-transform: uppercase;
+    display: grid;
+    gap: 1rem;
+    justify-items: start;
+}
+.hero-description {
+    max-width: 50rem;
+    line-height: 1.6;
+}
+.hero-img {
+    max-width: 15rem;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+}
+.hero-grid {
+    display: grid;
+    gap: var(--gap);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 68rem) {
+    .hero-content {
+        flex-direction: column;
+    }
+    .hero-information {
+        justify-items: center;
+    }
+    .hero-img {
+        max-width: 100%;
+        max-height: 20rem;
+    }
+    .hero-grid {
+        grid-template-columns: 1fr;
+    }
+    /* .hero-title {
+        text-align: center;
+    } */
+}
