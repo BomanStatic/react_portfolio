@@ -16,7 +16,7 @@ This project is a part of my school assignment and also a showcase of my skills 
 
 ### Built With
 
--   [![React][React.js]][React-url]
+-   React
 -   Semantic HTML5 markup
 -   CSS custom properties
 -   CSS Grid
