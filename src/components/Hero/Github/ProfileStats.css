@@ -14,7 +14,7 @@
     inset: 0;
     z-index: -1;
     background: var(--text);
-    transform: translateY(100%);
+    transform: translateY(101%);
     transition: transform 0.3s ease-in-out;
 }
 .github-stats:hover::before {
