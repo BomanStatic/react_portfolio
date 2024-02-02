@@ -14,7 +14,7 @@ function ThemeSwitcher() {
         document.documentElement.setAttribute("data-theme", theme ? "dark" : "light");
     }, [theme]);
     return (
-        <button className="theme__btn" onClick={handleClick}>
+        <button className="theme__btn" aria-label="Change theme" onClick={handleClick}>
             {theme && <iconify-icon icon="ph:moon-bold" height="1.7rem"></iconify-icon>}
             {!theme && <iconify-icon icon="ph:sun-bold" height="1.7rem"></iconify-icon>}
         </button>

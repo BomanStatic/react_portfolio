@@ -8,13 +8,17 @@ function ContactInfo() {
             </p>
             <ul role="list" className="contact-info__list">
                 <li className="contact-info__item">
-                    <iconify-icon icon="ic:baseline-phone" className="contact-info__icon"></iconify-icon>
+                    <a href="tel:+46730662088" aria-label="my phone number" className="contact-info__link">
+                        <iconify-icon icon="ic:baseline-phone" className="contact-info__icon"></iconify-icon>{" "}
+                    </a>
                     <a href="tel:+46730662088" className="contact-info__link">
                         073-066 20 88
                     </a>
                 </li>
                 <li className="contact-info__item">
-                    <iconify-icon icon="ic:round-email"></iconify-icon>
+                    <a href="mailto:boman.staticsites@gmail.com" aria-label="my email" className="contact-info__link">
+                        <iconify-icon icon="ic:round-email"></iconify-icon>
+                    </a>
                     <a href="mailto:boman.staticsites@gmail.com" className="contact-info__link">
                         boman.staticsites@gmail.com
                     </a>

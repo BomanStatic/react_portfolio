@@ -6,7 +6,7 @@ function Hamburger({ open, setOpen }) {
         setOpen((open) => !open);
     };
     return (
-        <button tabIndex="1" onClick={handleOpenHamburger} className={`hamburger ${open ? "open" : ""}`}>
+        <button tabIndex="0" aria-label="Navigation" onClick={handleOpenHamburger} className={`hamburger ${open ? "open" : ""}`}>
             <span className="hamburger__line" data-line="1"></span>
             <span className="hamburger__line" data-line="2"></span>
             <span className="hamburger__line" data-line="3"></span>

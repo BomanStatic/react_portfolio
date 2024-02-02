@@ -29,10 +29,10 @@ footer {
     gap: var(--gap);
 }
 .footer__link {
-    color: var(--light-primary);
+    color: var(--background);
     transition: 0.2s ease;
     font-size: 1.25rem;
 }
 .footer__link:hover {
-    color: var(--background);
+    color: var(--light-primary);
 }

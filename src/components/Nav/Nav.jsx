@@ -11,9 +11,8 @@ function Nav() {
             <nav className="nav__wrapper">
                 <ThemeSwitcher />
                 <p>
-                    Currently studying at
+                    Currently studying at{" "}
                     <a href="https://kyh.se/utbildningar/front-end-developer/" target="_blank" rel="noopener noreferrer">
-                        {" "}
                         KYH
                     </a>
                 </p>
